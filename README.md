@@ -1,4 +1,6 @@
-# EFI MSI Z390 Tomahawk OC & Clover Support Macos 10.15 Catalina
+# EFI MSI Z390 Tomahawk OC & Clover
+
+Support Macos 10.15 Catalina
 
 ## 兼容情况
 

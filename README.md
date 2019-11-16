@@ -1,6 +1,6 @@
 # EFI MSI Z390 Tomahawk OC & Clover
 
-Support Macos 10.15 Catalina
+Support MacOS 10.15 Catalina
 
 ## 兼容情况
 
@@ -16,13 +16,13 @@ Support Macos 10.15 Catalina
 - [x] 睡眠/唤醒
 - [x] 有线网卡
 - [x] 所有 USB 插口
+- [x] 无线 WiFi
 
 ### 未测试
 - [x] 声卡(Realtek ALC1220)
     - [x] 主板后置
     - [x] 机箱前置
     - [x] DisplayPort 声音输出
-- [x] 无线 WiFi
 - [x] 蓝牙
     - [x] 耳机
     - [x] Trackpad 2
@@ -42,4 +42,3 @@ Support Macos 10.15 Catalina
 
 - OC 自行修改PlatformInfo-Generic里面的参数
 - Clover 自行修改SMBIOS和SystemParameters里面的参数
-

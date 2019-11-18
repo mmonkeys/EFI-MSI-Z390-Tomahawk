@@ -232,7 +232,7 @@
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>RUMwXw==</data>
 				<key>Limit</key>
@@ -553,20 +553,6 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
-			<dict>
-				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
-				<key>MatchKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
@@ -788,7 +774,7 @@
 				<key>nvda_drv</key>
 				<data></data>
 				<key>prev-lang:kbd</key>
-				<data></data>
+				<data>emgtSGFuczoyNTI=</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -797,12 +783,27 @@
 		<true/>
 		<key>LegacySchema</key>
 		<dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<dict>
+				<key>UIScale</key>
+				<data>Ag==</data>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>item 1</key>
-				<string>efi-boot-device</string>
-				<key>item 2</key>
-				<string>efi-boot-device-data</string>
+				<key>SystemAudioVolume</key>
+				<data>MA==</data>
+				<key>SystemAudioVolumeDB</key>
+				<data>8A==</data>
+				<key>boot-args</key>
+				<string>slide=1</string>
+				<key>csr-active-config</key>
+				<data>AAAAAA==</data>
+				<key>fmm-computer-name</key>
+				<data>YWRtaW7igJlzIGlNYWM=</data>
+				<key>nvda_drv</key>
+				<data></data>
+				<key>prev-lang:kbd</key>
+				<data>emgtSGFuczoyNTI=</data>
 			</dict>
 		</dict>
 	</dict>
@@ -813,9 +814,9 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>xxxxxxxxxxxxxxxxxxxxx</string>
+			<string>xxxxxxxxxxxx</string>
 			<key>ROM</key>
-			<data>AAAAAAAA</data>
+			<data>ERERERER</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -823,7 +824,7 @@
 			<key>SystemSerialNumber</key>
 			<string>xxxxxxxxxxxx</string>
 			<key>SystemUUID</key>
-			<string>xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</string>
+			<string>xxxxxxxxxxxx-xxxxxxxxxxxx</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -845,7 +846,6 @@
 			<string>FwRuntimeServices.efi</string>
 			<string>VirtualSmc.efi</string>
 			<string>MemoryAllocation.efi</string>
-			<string>EmuVariableRuntimeDxe.efi</string>
 		</array>
 		<key>Protocols</key>
 		<dict>

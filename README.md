@@ -6,6 +6,8 @@ Support MacOS 10.15 Catalina
 
 ### 完美
 
+- [x] CPU
+    - [x] I7 9700K
 - [x] macOS 版本
     - [x] 10.14.6 Mojave
     - [x] 10.15 Catalina
@@ -14,9 +16,11 @@ Support MacOS 10.15 Catalina
     - [x] AMD RX580
 
 - [x] 睡眠/唤醒
-- [x] 有线网卡
+- [x] 有线网卡（双网卡）
 - [x] 所有 USB 插口
 - [x] 无线 WiFi
+- [x] 原生电源管理
+- [x] 模拟NVRAM
 
 ### 未测试
 - [x] 声卡(Realtek ALC1220)
@@ -38,7 +42,14 @@ Support MacOS 10.15 Catalina
 - VT-d -> Disabled
 - XHCI Hand-off -> Enabled
 
+默认使用Opencore引导，如果引导出问题，请更换Clover引导（将EFI-Clover文件夹更名为EFI）
+
 ### 机型配置修改：
 
 - OC 自行修改PlatformInfo-Generic里面的参数
 - Clover 自行修改SMBIOS和SystemParameters里面的参数
+
+### 当前版本
+
+- Opencore 0.5.3
+- Clover 5070

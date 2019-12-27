@@ -1,6 +1,6 @@
 # EFI MSI Z390 Tomahawk OC & Clover
 
-Support MacOS 10.15 Catalina
+Support MacOS 10.15.2 Catalina
 
 ## 兼容情况
 
@@ -56,3 +56,7 @@ Support MacOS 10.15 Catalina
 
 - Opencore 0.5.3
 - Clover 5070
+
+### 参考链接
+1.[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
+2.[Z390各种问题解决方案](https://blog.xjn819.com/?p=431)

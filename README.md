@@ -21,7 +21,7 @@ Support MacOS 10.15.2 Catalina
 - [x] 无线 WiFi（BCM94360免驱网卡）
 - [x] 原生电源管理
 - [x] 模拟NVRAM
-- [x] 蓝牙（需要定制USB，待更新）
+- [x] 蓝牙（定制USB）
     - [x] 耳机
     - [x] Trackpad 2
     - [x] Airdrop
@@ -55,8 +55,11 @@ Support MacOS 10.15.2 Catalina
 ### 当前版本
 
 - Opencore 0.5.3
-- Clover 5070
+- Clover 5070 (暂停维护)
 
 ### 参考链接
-1.[使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
-2.[Z390各种问题解决方案](https://blog.xjn819.com/?p=431)
+- [使用OpenCore引导黑苹果](https://blog.xjn819.com/?p=543)
+- [Z390各种问题解决方案](https://blog.xjn819.com/?p=431)
+- [精解OpenCore](https://blog.daliansky.net/OpenCore-BootLoader.html)
+- [Ongoing Status of Designare Z390 with i7-9700K](https://www.tonymacx86.com/threads/success-ongoing-status-of-designare-z390-with-i7-9700k.266065/)
+- [微星MSIZ390 TOMAHAWK+i7 9700K EFI分享](http://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1820830&highlight=9700k)
